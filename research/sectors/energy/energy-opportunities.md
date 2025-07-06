@@ -1,3 +1,15 @@
+---
+title: "Energy Opportunities in the OBBB Bill (HR 1)"
+opportunity_id: "RES-ENE-44"
+sector: "Energy"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "**FY2034:**..."
+tags:
+  - "AI"
+  - "Funding"
+---
 # Energy Opportunities in the OBBB Bill (HR 1)
 
 ## Title V - Committee on Energy and Natural Resources

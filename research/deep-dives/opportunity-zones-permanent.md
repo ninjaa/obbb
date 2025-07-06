@@ -1,3 +1,17 @@
+---
+title: "Opportunity Zones Made Permanent - The $100B+ Tax Haven Nobody's Talking About"
+opportunity_id: "DD-GEN-78"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Remember: The bill makes these changes effective for investments after December 31, 2026, with zone designations starting July 1, 2026. The clock is ticking.*..."
+tags:
+  - "AI"
+  - "Agriculture"
+  - "Opportunity Zones"
+  - "Tax Benefits"
+---
 # Opportunity Zones Made Permanent - The $100B+ Tax Haven Nobody's Talking About
 
 ## What Everyone Gets Wrong About This Opportunity

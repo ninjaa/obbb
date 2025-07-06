@@ -1,3 +1,17 @@
+---
+title: "QSBS $75M Expansion in HR119: The Ultimate Guide for Founders and Angels"
+opportunity_id: "DD-GEN-72"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Note: This analysis is based on HR119 as introduced. Final legislation may differ. State tax treatment varies - California notably does not conform to federal QSBS benefits.*..."
+tags:
+  - "Funding"
+  - "Opportunity Zones"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # QSBS $75M Expansion in HR119: The Ultimate Guide for Founders and Angels
 
 ## Executive Summary: This Changes Everything

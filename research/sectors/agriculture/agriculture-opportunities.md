@@ -1,3 +1,17 @@
+---
+title: "Agriculture Opportunities in BILLS-119hr1eas"
+opportunity_id: "RES-AGR-44"
+sector: "Agriculture"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "## Important Dates..."
+tags:
+  - "Agriculture"
+  - "Funding"
+  - "Opportunity Zones"
+  - "Tax Benefits"
+---
 # Agriculture Opportunities in BILLS-119hr1eas
 
 ## Title I - Committee on Agriculture, Nutrition, and Forestry

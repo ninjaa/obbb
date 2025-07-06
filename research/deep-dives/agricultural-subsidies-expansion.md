@@ -1,3 +1,16 @@
+---
+title: "Agricultural Subsidies Expansion: The Hidden $15B+ Annual Goldmine in HR119"
+opportunity_id: "DD-GEN-75"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Analysis based on HR119 (119th Congress), \"One Big Beautiful Bill\"*..."
+tags:
+  - "Agriculture"
+  - "Funding"
+  - "Tax Benefits"
+---
 # Agricultural Subsidies Expansion: The Hidden $15B+ Annual Goldmine in HR119
 
 ## Executive Summary for Urban Investors

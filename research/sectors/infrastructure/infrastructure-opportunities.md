@@ -1,3 +1,17 @@
+---
+title: "Infrastructure Opportunities in HR 1 (2025)"
+opportunity_id: "RES-INF-43"
+sector: "Infrastructure"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "## Procurement Considerations..."
+tags:
+  - "Defense"
+  - "Funding"
+  - "Opportunity Zones"
+  - "Tax Benefits"
+---
 # Infrastructure Opportunities in HR 1 (2025)
 
 ## Executive Summary

@@ -1,3 +1,15 @@
+---
+title: "Critical Minerals $7.5B Funding Deep Dive: Your Guide to Defense Production Profits"
+opportunity_id: "DD-GEN-83"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Move fast. The Chinese won't wait.*..."
+tags:
+  - "Defense"
+  - "Funding"
+---
 # Critical Minerals $7.5B Funding Deep Dive: Your Guide to Defense Production Profits
 
 ## The $7.5 Billion Breakdown: Three Massive Funding Buckets

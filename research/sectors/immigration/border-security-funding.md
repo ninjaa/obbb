@@ -1,3 +1,16 @@
+---
+title: "Border Security and Immigration Funding Analysis - OBBB Bill"
+opportunity_id: "RES-IMM-60"
+sector: "Immigration"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "This comprehensive funding package represents one of the largest border security investments in U.S. history, with significant opportunities for private contractors, technology companies, and state/lo..."
+tags:
+  - "AI"
+  - "Defense"
+  - "Funding"
+---
 # Border Security and Immigration Funding Analysis - OBBB Bill
 
 ## Executive Summary

@@ -1,3 +1,14 @@
+---
+title: "Accuracy Guidelines - Preventing Overestimation"
+opportunity_id: "RES-GEN-47"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "The goal: Every claim we make should be defensible in court...."
+tags:
+  - "Funding"
+---
 # Accuracy Guidelines - Preventing Overestimation
 
 ## The Problem

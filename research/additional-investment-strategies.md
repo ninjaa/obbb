@@ -1,3 +1,19 @@
+---
+title: "Additional Specific Investment Strategies - OBBB"
+opportunity_id: "RES-GEN-48"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*These strategies leverage the less obvious opportunities in OBBB while avoiding headline risk and political exposure.*..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Funding"
+  - "Opportunity Zones"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # Additional Specific Investment Strategies - OBBB
 
 ## 1. The "Picks and Shovels" Strategy

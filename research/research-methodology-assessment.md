@@ -1,3 +1,15 @@
+---
+title: "Research Methodology & Soundness Assessment"
+opportunity_id: "RES-GEN-43"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "The findings are directionally correct and valuable for identifying opportunities, but specific investments should undergo additional due diligence...."
+tags:
+  - "Defense"
+  - "Tax Benefits"
+---
 # Research Methodology & Soundness Assessment
 
 ## How Sound is This Research?

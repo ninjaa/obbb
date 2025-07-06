@@ -1,3 +1,16 @@
+---
+title: "One Big Beautiful Bill (HR119) - Profit Opportunities Database"
+opportunity_id: "RES-GEN-62"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Last Updated: 2025-07-06*..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Tax Benefits"
+---
 # One Big Beautiful Bill (HR119) - Profit Opportunities Database
 
 ## Overview

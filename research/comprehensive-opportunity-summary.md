@@ -1,3 +1,20 @@
+---
+title: "Comprehensive OBBB Opportunity Analysis - Beyond Defense & Border"
+opportunity_id: "RES-GEN-65"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "These opportunities are less controversial and offer diverse investment paths beyond the headline defense/border spending...."
+tags:
+  - "AI"
+  - "Agriculture"
+  - "Defense"
+  - "Funding"
+  - "Opportunity Zones"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # Comprehensive OBBB Opportunity Analysis - Beyond Defense & Border
 
 *Based on line-by-line analysis by specialized sub-agents*

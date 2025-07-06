@@ -1,3 +1,18 @@
+---
+title: "Hidden Opportunities in HR 1 (119th Congress)"
+opportunity_id: "RES-HID-45"
+sector: "Hidden"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Note: This document is based on HR 1 as engrossed in the House. Final provisions may change as the bill moves through the legislative process. Consult with legal and tax advisors for specific guidanc..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Funding"
+  - "Opportunity Zones"
+  - "Tax Benefits"
+---
 # Hidden Opportunities in HR 1 (119th Congress)
 
 ## Overview

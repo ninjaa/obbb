@@ -1,3 +1,16 @@
+---
+title: "Workforce Pell Grants - Comprehensive Analysis"
+opportunity_id: "DD-GEN-46"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "### Training-Related Appropriations..."
+tags:
+  - "AI"
+  - "Defense"
+  - "Funding"
+---
 # Workforce Pell Grants - Comprehensive Analysis
 ## The Most Detailed Examination of HR119's $10B+ Education Disruption
 

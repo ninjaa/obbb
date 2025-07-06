@@ -1,3 +1,16 @@
+---
+title: "Education and Technology Opportunities in HR 1 (BILLS-119hr1eas)"
+opportunity_id: "RES-EDU-64"
+sector: "Education Tech"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Note: This document summarizes key provisions from HR 1 (BILLS-119hr1eas.html). Consult the full legislation and relevant federal agencies for complete details and implementation guidance.*..."
+tags:
+  - "AI"
+  - "Funding"
+  - "Tax Benefits"
+---
 # Education and Technology Opportunities in HR 1 (BILLS-119hr1eas)
 
 ## Executive Summary

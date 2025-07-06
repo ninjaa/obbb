@@ -1,3 +1,17 @@
+---
+title: "The NYC Investor's Rural Opportunity Zone Playbook: How to Turn $250-400K into Generational Wealth"
+opportunity_id: "ENR-GEN-98"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Based on analysis of HR119 (119th Congress), \"One Big Beautiful Bill\" and current market conditions as of 2025*..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Opportunity Zones"
+  - "Tax Benefits"
+---
 # The NYC Investor's Rural Opportunity Zone Playbook: How to Turn $250-400K into Generational Wealth
 
 ## Executive Summary for NYC Investors

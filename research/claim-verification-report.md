@@ -1,3 +1,15 @@
+---
+title: "Claim Verification Report - Learning from 34.5% Accuracy"
+opportunity_id: "RES-GEN-56"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "The goal isn't 100% direct matches - it's 100% traceable, defensible claims...."
+tags:
+  - "Defense"
+  - "Tax Benefits"
+---
 # Claim Verification Report - Learning from 34.5% Accuracy
 
 ## The Problem

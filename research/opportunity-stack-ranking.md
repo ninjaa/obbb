@@ -1,3 +1,18 @@
+---
+title: "OBBB Opportunity Stack Ranking - Investment Thesis Priority"
+opportunity_id: "RES-GEN-59"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Stack ranking based on comprehensive analysis of HR119 (BILLS-119hr1eas) with line-by-line review of all provisions.*..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Opportunity Zones"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # OBBB Opportunity Stack Ranking - Investment Thesis Priority
 
 *Based on comprehensive analysis of HR119 with exact bill references*

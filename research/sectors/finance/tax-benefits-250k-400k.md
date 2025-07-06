@@ -1,3 +1,14 @@
+---
+title: "Tax Benefits for Households Earning $250K-$400K in OBBB Bill (Title VII - Finance)"
+opportunity_id: "RES-FIN-82"
+sector: "Finance"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "- **January 1, 2025:** Most provisions take effect..."
+tags:
+  - "Tax Benefits"
+---
 # Tax Benefits for Households Earning $250K-$400K in OBBB Bill (Title VII - Finance)
 
 ## Executive Summary

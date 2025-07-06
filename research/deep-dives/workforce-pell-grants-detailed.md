@@ -1,3 +1,14 @@
+---
+title: "Workforce Pell Grants - Deep Dive with Full References"
+opportunity_id: "DD-GEN-54"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*This analysis is based on HR 119 (BILLS-119hr1eas), Section 83002. Consult legal counsel for implementation strategies.*..."
+tags:
+  - "Funding"
+---
 # Workforce Pell Grants - Deep Dive with Full References
 
 ## What Everyone Gets Wrong About This Opportunity

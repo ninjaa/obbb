@@ -1,3 +1,15 @@
+---
+title: "The NYC Financial Player's Guide to Agricultural Subsidies: Turn $400K into $17K Annual Cash Flow"
+opportunity_id: "ENR-GEN-97"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Based on HR119 analysis and USDA program stacking opportunities*..."
+tags:
+  - "Agriculture"
+  - "Funding"
+---
 # The NYC Financial Player's Guide to Agricultural Subsidies: Turn $400K into $17K Annual Cash Flow
 
 ## Executive Summary for NYC Investors

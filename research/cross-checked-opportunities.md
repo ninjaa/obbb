@@ -1,3 +1,17 @@
+---
+title: "OBBB Cross-Checked Profit Opportunities Report"
+opportunity_id: "RES-GEN-46"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*All line numbers and dollar amounts cross-checked against source document BILLS-119hr1eas.html*..."
+tags:
+  - "AI"
+  - "Defense"
+  - "Funding"
+  - "Tax Benefits"
+---
 # OBBB Cross-Checked Profit Opportunities Report
 
 *All findings verified with specific bill references*

@@ -1,3 +1,16 @@
+---
+title: "Healthcare, Medical, and Health-Related Provisions in BILLS-119hr1eas.html"
+opportunity_id: "RES-HEA-74"
+sector: "Healthcare"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "### Financial Impacts:..."
+tags:
+  - "AI"
+  - "Defense"
+  - "Tax Benefits"
+---
 # Healthcare, Medical, and Health-Related Provisions in BILLS-119hr1eas.html
 
 ## Executive Summary

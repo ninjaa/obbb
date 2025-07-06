@@ -1,3 +1,19 @@
+---
+title: "NYC Private Equity & Banking Opportunity Playbook v2.0 - OBBB"
+opportunity_id: "RES-GEN-61"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*This playbook leverages NYC's unique position to capitalize on the less obvious but equally lucrative opportunities in OBBB.*..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Funding"
+  - "Opportunity Zones"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # NYC Private Equity & Banking Opportunity Playbook v2.0 - OBBB
 *Updated with comprehensive non-defense opportunity analysis*
 

@@ -1,3 +1,17 @@
+---
+title: "The $75M QSBS Arbitrage: How to Turn the 7.5X Expansion into Generational Wealth"
+opportunity_id: "ENR-GEN-80"
+sector: "General"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "*Based on HR119 Section 70423 expanding IRC Section 1202 exemption*..."
+tags:
+  - "AI"
+  - "Opportunity Zones"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # The $75M QSBS Arbitrage: How to Turn the 7.5X Expansion into Generational Wealth
 
 ## Executive Summary for NYC Sophisticated Investors

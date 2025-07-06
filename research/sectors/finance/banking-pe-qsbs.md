@@ -1,3 +1,18 @@
+---
+title: "OBBB Bill - Finance Sector Provisions Research"
+opportunity_id: "RES-FIN-46"
+sector: "Finance"
+role: "General"
+capital_level: "Variable"
+region: "National"
+summary: "The absence of carried interest reform, despite frequent political discussion, represents a significant win for the private equity industry. Similarly, the lack of new banking regulations maintains th..."
+tags:
+  - "Agriculture"
+  - "Defense"
+  - "Funding"
+  - "QSBS"
+  - "Tax Benefits"
+---
 # OBBB Bill - Finance Sector Provisions Research
 
 ## Executive Summary
