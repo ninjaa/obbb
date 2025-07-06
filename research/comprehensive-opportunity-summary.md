@@ -53,10 +53,10 @@
 - Focus on low-income communities
 
 #### Critical Minerals (Multiple sections)
-- **$7.5B total** for supply chain
-- Stockpile: $2B
-- Investments: $5B
-- Loans: $500M
+- **$7,500,000,000 total** for supply chain:
+  - Stockpile: $2,000,000,000 (Section 20004, line 2171)
+  - Investments: $5,000,000,000 (Section 20004, line 2232)
+  - Loans: $500,000,000 (Section 20004, line 2235)
 
 #### Manufacturing Credits
 - **Advanced manufacturing**: Enhanced credits
@@ -103,7 +103,7 @@
 2. **Permanent tax programs**: Opportunity zones, NMTC create long-term plays
 3. **Space/tech boom**: $10B+ in NASA/AI funding
 4. **Rural focus**: Many programs favor rural areas
-5. **Critical minerals**: $7.5B creates new supply chain opportunities
+5. **Critical minerals**: $7,500,000,000 ($2B + $5B + $500M) creates new supply chain opportunities
 
 ## What You Were Missing:
 

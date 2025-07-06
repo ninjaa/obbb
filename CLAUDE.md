@@ -7,6 +7,7 @@ Systematic analysis of HR119 (One Big Beautiful Bill) to identify profit opportu
 - `uv run parse-bill` - Parse bill sections into markdown
 - `uv run analyze-opportunities` - Generate profit vector analysis
 - `uv run build-index` - Create cross-referenced master index
+- `uv run verify_claims` - Verify all claims against source bill
 - `uv sync` - Install dependencies
 - `npm run lint` - Lint markdown files
 - `npm run build` - Build static site from research
@@ -27,6 +28,8 @@ Systematic analysis of HR119 (One Big Beautiful Bill) to identify profit opportu
 - **ULTRATHINK AND ULTRAWORK**: Deep analysis, not surface-level claims. Each profit vector must be actionable with specific dollar amounts and implementation paths.
 - **REFERENCES REQUIRED**: Every opportunity must cite specific bill sections, line numbers, and exact legislative text. No handwaving allowed.
 - **ACTIONABLE DETAIL**: When we say "Workforce Pell Grants", explain what Section 83002 actually says about eligibility, amounts, and how to access.
+- **PREVENT OVERESTIMATION**: Always verify claims before stating them. We claimed "75K words" but had 25K. Use `wc -w` for counts, `grep` for sections, show math for calculations.
+- **VERIFICATION FIRST**: Run `uv run verify_claims` before publishing. Every dollar amount and section reference must trace back to the bill.
 
 ## Current Status
 - ✅ Extracted 379 defense funding opportunities from 5 sections

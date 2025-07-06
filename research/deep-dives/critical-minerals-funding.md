@@ -2,8 +2,11 @@
 
 ## The $7.5 Billion Breakdown: Three Massive Funding Buckets
 
+**Total Critical Minerals Funding**: $2B (Stockpile) + $5B (Industrial Base) + $500M (Credit Program) = $7.5B in direct appropriations
+
 ### 1. National Defense Stockpile: $2 Billion Cash Injection
-**Location**: Title II, Section 20004(a)(40), Lines 2171-2172
+**Location**: Title II, Section 20004(a)(40), Line 2171
+**Exact Citation**: BILLS-119hr1eas.html, Line 2171
 ```
 $2,000,000,000 for additional activities to improve the United States stockpile 
 of critical minerals through the National Defense Stockpile Transaction Fund, 
@@ -13,7 +16,8 @@ authorized by subchapter III of chapter 5 of title 50, United States Code
 **What This Means**: The Defense Logistics Agency (DLA) gets $2B to buy critical minerals directly from producers. This is immediate cash for existing inventory.
 
 ### 2. Industrial Base Fund Investments: $5 Billion for Supply Chain
-**Location**: Title II, Section 20004(c), Lines 2232-2233
+**Location**: Title II, Section 20004(c), Line 2232
+**Exact Citation**: BILLS-119hr1eas.html, Line 2232
 ```
 $5,000,000,000 for investments in critical minerals supply chains made pursuant 
 to the Industrial Base Fund established under section 4817 of title 10, United States Code
@@ -22,16 +26,22 @@ to the Industrial Base Fund established under section 4817 of title 10, United S
 **What This Means**: DoD can make direct investments in mining operations, processing facilities, and refineries. This is equity/grant funding for new capacity.
 
 ### 3. Loan Guarantees: $500 Million Unlocking $100 Billion
-**Location**: Title II, Section 20004(d), Lines 2235-2238
+**Location**: Title II, Section 20004(d), Line 2235
+**Exact Citation**: BILLS-119hr1eas.html, Line 2235
 ```
 $500,000,000 to the "Department of Defense Credit Program Account" to carry out 
 the capital assistance program, including loans, loan guarantees, and technical 
-assistance... to subsidize gross obligations for the principal amount of direct 
-loans, and total loan principal, any part of which is to be guaranteed, not to 
-exceed $100,000,000,000
+assistance, established under section 149(e) of title 10, United States Code, 
+for critical minerals and related industries and projects, including related 
+Covered Technology Categories: Provided, That—
+(1) such amounts are available to subsidize gross obligations for the principal 
+amount of direct loans, and total loan principal, any part of which is to be 
+guaranteed, not to exceed $100,000,000,000
 ```
 
 **What This Means**: DoD can guarantee up to $100B in private loans with just $500M in appropriations. This is a 200:1 leverage ratio!
+
+**Note**: There's actually a SECOND $100B loan guarantee program in Section 20005(b) (Line 2316) with $1B in appropriations for general defense purposes, bringing total loan guarantee authority to $200B.
 
 ## The Critical Minerals List: What Actually Qualifies
 
@@ -161,7 +171,7 @@ This creates a 5-year gold rush for critical minerals funding.
 
 ## Red Flags and Restrictions
 
-### Foreign Entity Restrictions (Lines 2235-2240)
+### Foreign Entity Restrictions (Section 20004(d), Lines 2235-2240)
 The $500M loan program specifically mentions "critical minerals and related industries and projects, including related Covered Technology Categories."
 
 **Covered Nations** (Cannot participate):
@@ -237,5 +247,14 @@ This isn't just another government program. This is DoD saying: "We're in a mine
 Creates the best opportunity in a generation for critical minerals investment. The window is 2025-2029. After that, the easy money is gone.
 
 **Remember**: Every electric vehicle, wind turbine, missile, and F-35 needs these minerals. The demand is structural, strategic, and subsidized. This is as close to guaranteed profits as government funding gets.
+
+## Funding Math Verification
+- **Line 2171**: $2,000,000,000 (National Defense Stockpile)
+- **Line 2232**: $5,000,000,000 (Industrial Base Fund)
+- **Line 2235**: $500,000,000 (Credit Program Account)
+- **Total Direct Appropriations**: $7,500,000,000
+- **Loan Guarantee Authority**: $100,000,000,000 (from the $500M appropriation)
+- **Additional Loan Authority**: $100,000,000,000 (from Section 20005(b)'s $1B appropriation)
+- **Total Capital Available**: $7.5B cash + $200B in guaranteed loans
 
 *Move fast. The Chinese won't wait.*
