@@ -25,12 +25,16 @@ Systematic analysis of HR119 (One Big Beautiful Bill) to identify profit opportu
 ## Important Notes
 - **NO REWARD HACKING**: Don't claim success without real results. The initial parser was broken (extracting TOC repeatedly). The fixed parser found 379 real funding opportunities.
 - **ULTRATHINK AND ULTRAWORK**: Deep analysis, not surface-level claims. Each profit vector must be actionable with specific dollar amounts and implementation paths.
+- **REFERENCES REQUIRED**: Every opportunity must cite specific bill sections, line numbers, and exact legislative text. No handwaving allowed.
+- **ACTIONABLE DETAIL**: When we say "Workforce Pell Grants", explain what Section 83002 actually says about eligibility, amounts, and how to access.
 
 ## Current Status
 - ✅ Extracted 379 defense funding opportunities from 5 sections
 - ✅ Found specific dollar amounts ($1.4B drone expansion, $2B satellites, etc.)
-- ❌ Need to analyze Finance sections for $250K-400K tax opportunities
-- ❌ Need to build GraphRAG knowledge system
+- ✅ Analyzed Finance sections - found SALT deduction increase, QSBS expansion, OZ permanence
+- ✅ Discovered $50B+ non-defense opportunities (agriculture, space, critical minerals)
+- ⚠️  Need deeper analysis with specific bill references (line numbers, exact text)
+- ❌ Need to build GraphRAG knowledge system for querying relationships
 - ❌ Need interactive query interfaces
 
 ## Collaboration
