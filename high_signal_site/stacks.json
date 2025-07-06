@@ -1,0 +1,38 @@
+[
+  {
+    "name": "The Triple Tax Stack",
+    "components": [
+      "Opportunity Zones",
+      "QSBS",
+      "Agricultural Subsidies"
+    ],
+    "total_benefit": "0% federal tax + $85/acre income + land appreciation",
+    "structure": "Form OZ Fund \u2192 Issue QSBS \u2192 Buy farmland in OZ",
+    "complexity": "High",
+    "roi_range": "40-60% IRR"
+  },
+  {
+    "name": "Border State Maximizer",
+    "components": [
+      "Agricultural Land",
+      "Defense Contracts",
+      "Border Security"
+    ],
+    "total_benefit": "Subsidy income + federal contracts + land value",
+    "structure": "Buy TX/AZ farmland \u2192 Bid on border projects \u2192 Stack subsidies",
+    "complexity": "Medium",
+    "roi_range": "25-35% IRR"
+  },
+  {
+    "name": "NYC Financial Engineering",
+    "components": [
+      "QSBS SPVs",
+      "OZ Funds",
+      "Carried Interest"
+    ],
+    "total_benefit": "$75M tax-free + OZ appreciation + GP economics",
+    "structure": "GP creates funds \u2192 Stack tax benefits \u2192 20% carry on tax-free gains",
+    "complexity": "High",
+    "roi_range": "30-50% IRR to GP"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "oz-rural-30",
+    "title": "Rural Opportunity Zones - 30% Bonus",
+    "roi": "300-600% over 10 years",
+    "minimum": "$50,000",
+    "deadline": "July 2026 for new designations",
+    "verified": true,
+    "source": "Section 60109 of HR119",
+    "action": "Buy rural land in counties likely to get OZ designation",
+    "stack_with": [
+      "Agricultural Subsidies",
+      "Critical Minerals"
+    ],
+    "key_benefit": "Tax-free gains after 10 years + 30% rural bonus"
+  },
+  {
+    "id": "qsbs-75m",
+    "title": "QSBS $75M Tax-Free Gains",
+    "roi": "+600-1200 bps to net IRR",
+    "minimum": "$25,000",
+    "deadline": "Effective 2027",
+    "verified": true,
+    "source": "Section 70423 of HR119",
+    "action": "Structure investments through SPVs for QSBS qualification",
+    "stack_with": [
+      "Opportunity Zones",
+      "R&D Credits"
+    ],
+    "key_benefit": "7.5X increase in tax-free capital gains"
+  },
+  {
+    "id": "ag-base-acres",
+    "title": "Agricultural Base Acre Arbitrage",
+    "roi": "14-20% levered IRR",
+    "minimum": "$400,000 (with leverage)",
+    "deadline": "NOW - allocation happening",
+    "verified": true,
+    "source": "30 million new base acres provision",
+    "action": "Buy farmland in gap counties before FSA allocation",
+    "stack_with": [
+      "Conservation Programs",
+      "Carbon Credits"
+    ],
+    "key_benefit": "$85/acre annual subsidy stack"
+  },
+  {
+    "id": "critical-minerals",
+    "title": "Critical Minerals Defense Contracts",
+    "roi": "25-40% IRR with DoD backing",
+    "minimum": "$100,000",
+    "deadline": "FY2025-2031 funding",
+    "verified": true,
+    "source": "$7.5B total ($2B + $5B + $500M)",
+    "action": "Partner with mining companies for DoD contracts",
+    "stack_with": [
+      "Defense Programs",
+      "Loan Guarantees"
+    ],
+    "key_benefit": "Government-backed demand + stockpile sales"
+  },
+  {
+    "id": "bootcamp-pell",
+    "title": "Bootcamp Roll-ups with Pell Grants",
+    "roi": "8-12X on acquisitions",
+    "minimum": "$500,000",
+    "deadline": "2025 implementation",
+    "verified": true,
+    "source": "Workforce Pell Grant expansion",
+    "action": "Acquire bootcamps, convert to Title IV eligible",
+    "stack_with": [
+      "Apprenticeship Programs",
+      "State Grants"
+    ],
+    "key_benefit": "$7,395/student federal funding"
+  }
+]
