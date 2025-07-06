@@ -1,0 +1,19 @@
+{
+  "name": "obbb-research",
+  "version": "1.0.0",
+  "description": "One Big Beautiful Bill profit opportunity research database",
+  "main": "index.js",
+  "scripts": {
+    "lint": "markdownlint research/**/*.md",
+    "build": "node scripts/build-site.js",
+    "analyze": "uv run analyze-opportunities",
+    "parse": "uv run parse-bill"
+  },
+  "keywords": ["policy", "research", "economics", "investment"],
+  "author": "Your Name & Claude (Anthropic)",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "markdown-it": "^13.0.2"
+  }
+}
