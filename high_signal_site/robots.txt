@@ -1,4 +1,22 @@
 User-agent: *
+# Block secret pages
 Disallow: /deep-index.html
+Disallow: /x7j9k2m5p8v3.html
+
+# Block access to sectors/hidden if it exists
+Disallow: /sectors/hidden/
+
+# Block original site directory
 Disallow: /site/
+
+# Allow all other content
+Allow: /deep-dives/
+Allow: /enrichments/
+Allow: /sectors/
+Allow: /*.html$
+
+# Set crawl delay to be respectful
 Crawl-delay: 10
+
+# Sitemap location (if you add one later)
+# Sitemap: https://yourdomain.com/sitemap.xml

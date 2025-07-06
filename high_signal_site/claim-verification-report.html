@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Verification Report - Learning from 34.5% Accuracy - OBBB Research</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        h1 {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            margin-left: 0;
+            padding-left: 20px;
+            color: #666;
+        }
+        .nav {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 30px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 10px 10px 0 0;
+        }
+        .nav a {
+            color: white;
+            margin-right: 20px;
+        }
+        .metadata {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        .tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #f4f4f4;
+            font-weight: bold;
+        }
+        .opportunity-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background: #f9f9f9;
+        }
+        .opportunity-card h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .returns {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .action-required {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="master-index.html">All Research</a>
+        <a href="nyc-investor-quick-start.html">Quick Start</a>
+        <a href="opportunities.html">Search</a>
+    </div>
+    <div class="container">
+        <div class="metadata"><strong>Sector:</strong> General | <strong>Capital Required:</strong> Variable | <strong>Tags:</strong> <span class="tag">Defense</span><span class="tag">Tax Benefits</span></div><h1 id="claim-verification-report-learning-from-345-accuracy">Claim Verification Report - Learning from 34.5% Accuracy</h1>
+<h2 id="the-problem">The Problem</h2>
+<p>Our verification script showed only 34.5% of dollar claims could be directly verified. This doesn't mean 65.5% are wrong - it reveals how we're aggregating and presenting information.</p>
+<h2 id="why-claims-dont-match">Why Claims Don't Match</h2>
+<h3 id="1-aggregation-without-attribution">1. Aggregation Without Attribution</h3>
+<p><strong>We claimed</strong>: "$7.5B for critical minerals"
+<strong>Reality</strong>: This comes from THREE separate appropriations:
+- $2,000,000,000 - National Defense Stockpile (Line 2171)
+- $5,000,000,000 - Industrial Base Fund investments (Line 2232)<br />
+- $500,000,000 - Loan guarantees (Line 2235)
+<strong>Total</strong>: $7,500,000,000</p>
+<p><strong>Lesson</strong>: Always show the math and cite each component.</p>
+<h3 id="2-shorthand-vs-full-format">2. Shorthand vs Full Format</h3>
+<p><strong>We write</strong>: "$7.5B", "$150M", "$250K"
+<strong>Bill writes</strong>: "7,500,000,000", "150,000,000", "250,000"
+<strong>Solution</strong>: Our verification tool now converts, but we should cite exact bill language.</p>
+<h3 id="3-calculated-values">3. Calculated Values</h3>
+<p><strong>We claimed</strong>: "$11,100 tax savings"
+<strong>Reality</strong>: This is calculated from SALT deduction increase × 37% tax rate
+<strong>Better approach</strong>: "$30,000 additional SALT deduction (Section 70120) × 37% bracket = $11,100 savings"</p>
+<h3 id="4-market-estimates-vs-appropriations">4. Market Estimates vs Appropriations</h3>
+<p><strong>We claimed</strong>: "$100B opportunity"
+<strong>Reality</strong>: Projection based on leverage ratios, not in bill
+<strong>Better</strong>: "$5B appropriation could unlock $100B with 20:1 leverage typical in loan guarantees"</p>
+<h2 id="updated-guidelines">Updated Guidelines</h2>
+<h3 id="for-dollar-claims">For Dollar Claims:</h3>
+<div class="codehilite"><pre><span></span><code>❌ BAD: &quot;This is a $7.5B opportunity&quot;
+✅ GOOD: &quot;This program receives $7.5B through three appropriations:
+<span class="k">-</span><span class="w"> </span>$2B for stockpile purchases (Section 20004, line 2171)
+<span class="k">-</span><span class="w"> </span>$5B for investments (Section 20004, line 2232)
+<span class="k">-</span><span class="w"> </span>$500M for guarantees (Section 20004, line 2235)&quot;
+</code></pre></div>
+
+<h3 id="for-tax-calculations">For Tax Calculations:</h3>
+<div class="codehilite"><pre><span></span><code>❌ BAD: &quot;$11,100 annual savings&quot;
+✅ GOOD: &quot;SALT deduction increases by $30,000 (from $10,000 to $40,000, Section 70120).
+For taxpayers in the 37% bracket, this saves $11,100 annually.&quot;
+</code></pre></div>
+
+<h3 id="for-market-projections">For Market Projections:</h3>
+<div class="codehilite"><pre><span></span><code>❌ BAD: &quot;$100B market opportunity&quot;
+✅ GOOD: &quot;With 43.2M Americans having some college but no degree (NCES data),
+and average program cost of $5,000, the total addressable market is $216B.
+Assuming 10% participation over 5 years yields $21.6B.&quot;
+</code></pre></div>
+
+<h2 id="verification-results-by-category">Verification Results by Category</h2>
+<h3 id="directly-verifiable-high-confidence">✅ Directly Verifiable (High Confidence)</h3>
+<ul>
+<li>Defense appropriations with specific line items</li>
+<li>Tax provision changes with exact amounts</li>
+<li>Grant program funding levels</li>
+</ul>
+<h3 id="calculatedaggregated-medium-confidence">⚠️ Calculated/Aggregated (Medium Confidence)</h3>
+<ul>
+<li>Total program funding from multiple sections</li>
+<li>Tax savings based on bracket calculations</li>
+<li>Market size estimates with stated assumptions</li>
+</ul>
+<h3 id="projectionsinterpretations-lower-confidence">❌ Projections/Interpretations (Lower Confidence)</h3>
+<ul>
+<li>ROI estimates</li>
+<li>Market opportunity sizing</li>
+<li>Competitive advantage claims</li>
+</ul>
+<h2 id="action-items">Action Items</h2>
+<ol>
+<li><strong>Update all deep-dives</strong> to show component math for aggregated claims</li>
+<li><strong>Add citation format</strong> showing exact bill text</li>
+<li><strong>Separate facts from analysis</strong> more clearly</li>
+<li><strong>Create source mapping</strong> for every major claim</li>
+</ol>
+<h2 id="the-real-insight">The Real Insight</h2>
+<p>Our 34.5% "accuracy" actually reveals we're doing complex analysis - aggregating multiple provisions, calculating impacts, and projecting opportunities. This is valuable BUT must be transparent about sources and calculations.</p>
+<p>The goal isn't 100% direct matches - it's 100% traceable, defensible claims.</p>
+    </div>
+    <script>
+        // Add copy button to code blocks
+        document.querySelectorAll('pre').forEach(pre => {
+            const button = document.createElement('button');
+            button.textContent = 'Copy';
+            button.style.position = 'absolute';
+            button.style.right = '10px';
+            button.style.top = '10px';
+            button.style.fontSize = '12px';
+            button.onclick = () => {
+                navigator.clipboard.writeText(pre.textContent);
+                button.textContent = 'Copied!';
+                setTimeout(() => button.textContent = 'Copy', 2000);
+            };
+            pre.style.position = 'relative';
+            pre.appendChild(button);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accuracy Guidelines - Preventing Overestimation - OBBB Research</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        h1 {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            margin-left: 0;
+            padding-left: 20px;
+            color: #666;
+        }
+        .nav {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 30px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 10px 10px 0 0;
+        }
+        .nav a {
+            color: white;
+            margin-right: 20px;
+        }
+        .metadata {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        .tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #f4f4f4;
+            font-weight: bold;
+        }
+        .opportunity-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background: #f9f9f9;
+        }
+        .opportunity-card h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .returns {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .action-required {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="master-index.html">All Research</a>
+        <a href="nyc-investor-quick-start.html">Quick Start</a>
+        <a href="opportunities.html">Search</a>
+    </div>
+    <div class="container">
+        <div class="metadata"><strong>Sector:</strong> General | <strong>Capital Required:</strong> Variable | <strong>Tags:</strong> <span class="tag">Funding</span></div><h1 id="accuracy-guidelines-preventing-overestimation">Accuracy Guidelines - Preventing Overestimation</h1>
+<h2 id="the-problem">The Problem</h2>
+<p>When I claimed "75,000 words," we actually had 25,802 words. This 3x overestimation is exactly the "reward hacking" we must avoid.</p>
+<h2 id="mitigation-strategies">Mitigation Strategies</h2>
+<h3 id="1-always-verify-before-claiming">1. Always Verify Before Claiming</h3>
+<ul>
+<li>Run <code>wc -w</code> before stating word counts</li>
+<li>Run <code>grep</code> before claiming sections exist</li>
+<li>Calculate math before stating numbers</li>
+</ul>
+<h3 id="2-use-precise-language">2. Use Precise Language</h3>
+<p>❌ "We have ~75K words" (when unchecked)
+✅ "Let me check... we have exactly 25,802 words"</p>
+<p>❌ "This creates a $100B opportunity" (speculation)
+✅ "With $7.5B in funding and 10:1 leverage possible, this could unlock $75B"</p>
+<h3 id="3-source-everything">3. Source Everything</h3>
+<p>Every significant claim must have:
+- Section number from bill
+- Line number reference
+- Exact quote or calculation shown</p>
+<h3 id="4-automated-verification">4. Automated Verification</h3>
+<p>Before publishing any research:</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Verify all claims</span>
+uv<span class="w"> </span>run<span class="w"> </span>verify_claims
+
+<span class="c1"># Count actual words</span>
+find<span class="w"> </span>research/<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.md&quot;</span><span class="w"> </span>-exec<span class="w"> </span>wc<span class="w"> </span>-w<span class="w"> </span><span class="o">{}</span><span class="w"> </span><span class="se">\;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;{sum += $1} END {print sum}&#39;</span>
+
+<span class="c1"># Check section references</span>
+grep<span class="w"> </span>-h<span class="w"> </span><span class="s2">&quot;Section [0-9]&quot;</span><span class="w"> </span>research/**/*.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span>-c
+</code></pre></div>
+
+<h3 id="5-conservative-estimation-rules">5. Conservative Estimation Rules</h3>
+<ul>
+<li>Round DOWN not up</li>
+<li>Use ranges with clear assumptions</li>
+<li>Separate facts from projections</li>
+</ul>
+<h3 id="6-regular-audits">6. Regular Audits</h3>
+<ul>
+<li>Weekly claim verification</li>
+<li>Cross-check dollar amounts</li>
+<li>Validate section references</li>
+</ul>
+<h2 id="examples-of-better-practices">Examples of Better Practices</h2>
+<h3 id="word-counts">Word Counts</h3>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Before claiming</span>
+<span class="nv">WORD_COUNT</span><span class="o">=</span><span class="k">$(</span>find<span class="w"> </span>research/<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.md&quot;</span><span class="w"> </span>-exec<span class="w"> </span>wc<span class="w"> </span>-w<span class="w"> </span><span class="o">{}</span><span class="w"> </span><span class="se">\;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;{sum += $1} END {print sum}&#39;</span><span class="k">)</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;We have exactly </span><span class="nv">$WORD_COUNT</span><span class="s2"> words of research&quot;</span>
+</code></pre></div>
+
+<h3 id="dollar-amounts">Dollar Amounts</h3>
+<div class="codehilite"><pre><span></span><code>❌ &quot;This is a $100B opportunity&quot;
+✅ &quot;The bill allocates $7.5B (Section 20004, lines 2171-2235), which could unlock up to $75B in private capital through 90% loan guarantees&quot;
+</code></pre></div>
+
+<h3 id="market-sizing">Market Sizing</h3>
+<div class="codehilite"><pre><span></span><code>❌ &quot;Millions will benefit&quot;
+✅ &quot;43.2 million Americans have some college but no degree (source: National Student Clearinghouse). If 10% participate, that&#39;s 4.3M potential students.&quot;
+</code></pre></div>
+
+<h2 id="verification-checklist">Verification Checklist</h2>
+<p>Before making any claim:
+- [ ] Can I show the exact source?
+- [ ] Have I verified the number/fact?
+- [ ] Is my language precise, not approximate?
+- [ ] Am I separating facts from analysis?
+- [ ] Would this pass peer review?</p>
+<h2 id="trust-building">Trust Building</h2>
+<p>Users trust us when we:
+1. Admit uncertainty ("I need to verify this")
+2. Show our work (calculations, sources)
+3. Correct mistakes immediately
+4. Under-promise and over-deliver</p>
+<p>The goal: Every claim we make should be defensible in court.</p>
+    </div>
+    <script>
+        // Add copy button to code blocks
+        document.querySelectorAll('pre').forEach(pre => {
+            const button = document.createElement('button');
+            button.textContent = 'Copy';
+            button.style.position = 'absolute';
+            button.style.right = '10px';
+            button.style.top = '10px';
+            button.style.fontSize = '12px';
+            button.onclick = () => {
+                navigator.clipboard.writeText(pre.textContent);
+                button.textContent = 'Copied!';
+                setTimeout(() => button.textContent = 'Copy', 2000);
+            };
+            pre.style.position = 'relative';
+            pre.appendChild(button);
+        });
+    </script>
+</body>
+</html>
