@@ -1,0 +1,32 @@
+{
+  "total_opportunities": 28,
+  "by_category": {
+    "deep-dive": 6,
+    "enrichment": 3,
+    "general": 10,
+    "sector-analysis": 9
+  },
+  "by_sector": {
+    "General": 19,
+    "Agriculture": 1,
+    "Immigration": 1,
+    "Education Tech": 1,
+    "Energy": 1,
+    "Healthcare": 1,
+    "Hidden": 1,
+    "Infrastructure": 1,
+    "Finance": 2
+  },
+  "by_capital_level": {
+    "Variable": 28
+  },
+  "by_tags": {
+    "Agriculture": 12,
+    "Funding": 18,
+    "Tax Benefits": 21,
+    "Defense": 17,
+    "AI": 10,
+    "Opportunity Zones": 11,
+    "QSBS": 8
+  }
+}

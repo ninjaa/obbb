@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Opportunities - OBBB Research</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        h1 {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            margin-left: 0;
+            padding-left: 20px;
+            color: #666;
+        }
+        .nav {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 30px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 10px 10px 0 0;
+        }
+        .nav a {
+            color: white;
+            margin-right: 20px;
+        }
+        .metadata {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        .tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #f4f4f4;
+            font-weight: bold;
+        }
+        .opportunity-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background: #f9f9f9;
+        }
+        .opportunity-card h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .returns {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .action-required {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="master-index.html">All Research</a>
+        <a href="nyc-investor-quick-start.html">Quick Start</a>
+        <a href="opportunities.html">Search</a>
+    </div>
+    <div class="container">
+        
+    <h1>Search Opportunities</h1>
+    <input type="text" id="search" placeholder="Search opportunities..." style="width: 100%; padding: 10px; margin: 20px 0; border: 1px solid #ddd; border-radius: 5px;">
+    
+    <div id="filters" style="margin-bottom: 20px;">
+        <label><input type="checkbox" class="tag-filter" value="Tax Benefits"> Tax Benefits</label>
+        <label><input type="checkbox" class="tag-filter" value="Funding"> Funding</label>
+        <label><input type="checkbox" class="tag-filter" value="Agriculture"> Agriculture</label>
+        <label><input type="checkbox" class="tag-filter" value="Defense"> Defense</label>
+        <label><input type="checkbox" class="tag-filter" value="Opportunity Zones"> Opportunity Zones</label>
+        <label><input type="checkbox" class="tag-filter" value="QSBS"> QSBS</label>
+    </div>
+    
+    <div id="results"></div>
+    
+    <script>
+    const opportunities = [{"title": "Agricultural Subsidies Expansion: The Hidden $15B+ Annual Goldmine in HR119", "opportunity_id": "DD-GEN-75", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Analysis based on HR119 (119th Congress), \"One Big Beautiful Bill\"*...", "tags": ["Agriculture", "Funding", "Tax Benefits"], "file_path": "deep-dives/agricultural-subsidies-expansion.md", "category": "deep-dive"}, {"title": "Critical Minerals $7.5B Funding Deep Dive: Your Guide to Defense Production Profits", "opportunity_id": "DD-GEN-83", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "**Total Critical Minerals Funding**: $2B (Stockpile) + $5B (Industrial Base) + $500M (Credit Program) = $7.5B in direct appropriations...", "tags": ["Defense", "Funding"], "file_path": "deep-dives/critical-minerals-funding.md", "category": "deep-dive"}, {"title": "Opportunity Zones Made Permanent - The $100B+ Tax Haven Nobody's Talking About", "opportunity_id": "DD-GEN-78", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Remember: The bill makes these changes effective for investments after December 31, 2026, with zone designations starting July 1, 2026. The clock is ticking.*...", "tags": ["AI", "Agriculture", "Opportunity Zones", "Tax Benefits"], "file_path": "deep-dives/opportunity-zones-permanent.md", "category": "deep-dive"}, {"title": "QSBS $75M Expansion in HR119: The Ultimate Guide for Founders and Angels", "opportunity_id": "DD-GEN-72", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Note: This analysis is based on HR119 as introduced. Final legislation may differ. State tax treatment varies - California notably does not conform to federal QSBS benefits.*...", "tags": ["Funding", "Opportunity Zones", "QSBS", "Tax Benefits"], "file_path": "deep-dives/qsbs-75m-expansion.md", "category": "deep-dive"}, {"title": "Workforce Pell Grants - Comprehensive Analysis", "opportunity_id": "DD-GEN-46", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "**The $10-13B Market Opportunity Calculation:**\n- **Target Market**: 43.2M Americans with some college, no degree ([NCES 2023](https://nces.ed.gov/programs/digest/d23/tables/dt23_104.20.asp))\n- **Cons...", "tags": ["AI", "Defense", "Funding"], "file_path": "deep-dives/workforce-pell-grants-comprehensive.md", "category": "deep-dive"}, {"title": "Workforce Pell Grants - Deep Dive with Full References", "opportunity_id": "DD-GEN-54", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*This analysis is based on HR 119 (BILLS-119hr1eas), Section 83002. Consult legal counsel for implementation strategies.*...", "tags": ["Funding"], "file_path": "deep-dives/workforce-pell-grants-detailed.md", "category": "deep-dive"}, {"title": "The $75M QSBS Arbitrage: How to Turn the 7.5X Expansion into Generational Wealth", "opportunity_id": "ENR-GEN-80", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Based on HR119 Section 70423 expanding IRC Section 1202 exemption*...", "tags": ["AI", "Opportunity Zones", "QSBS", "Tax Benefits"], "file_path": "enrichments/qsbs-75m-arbitrage-guide.md", "category": "enrichment"}, {"title": "The NYC Financial Player's Guide to Agricultural Subsidies: Turn $400K into $17K Annual Cash Flow", "opportunity_id": "ENR-GEN-97", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Based on HR119 analysis and USDA program stacking opportunities*...", "tags": ["Agriculture", "Funding"], "file_path": "enrichments/agricultural-subsidies-nyc-playbook.md", "category": "enrichment"}, {"title": "The NYC Investor's Rural Opportunity Zone Playbook: How to Turn $250-400K into Generational Wealth", "opportunity_id": "ENR-GEN-98", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Based on analysis of HR119 (119th Congress), \"One Big Beautiful Bill\" and current market conditions as of 2025*...", "tags": ["Agriculture", "Defense", "Opportunity Zones", "Tax Benefits"], "file_path": "enrichments/opportunity-zones-nyc-playbook.md", "category": "enrichment"}, {"title": "Accuracy Guidelines - Preventing Overestimation", "opportunity_id": "RES-GEN-47", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "The goal: Every claim we make should be defensible in court....", "tags": ["Funding"], "file_path": "accuracy-guidelines.md", "category": "general"}, {"title": "Additional Specific Investment Strategies - OBBB", "opportunity_id": "RES-GEN-48", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*These strategies leverage the less obvious opportunities in OBBB while avoiding headline risk and political exposure.*...", "tags": ["Agriculture", "Defense", "Funding", "Opportunity Zones", "QSBS", "Tax Benefits"], "file_path": "additional-investment-strategies.md", "category": "general"}, {"title": "Claim Verification Report - Learning from 34.5% Accuracy", "opportunity_id": "RES-GEN-56", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "The goal isn't 100% direct matches - it's 100% traceable, defensible claims....", "tags": ["Defense", "Tax Benefits"], "file_path": "claim-verification-report.md", "category": "general"}, {"title": "Comprehensive OBBB Opportunity Analysis - Beyond Defense & Border", "opportunity_id": "RES-GEN-65", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "These opportunities are less controversial and offer diverse investment paths beyond the headline defense/border spending....", "tags": ["AI", "Agriculture", "Defense", "Funding", "Opportunity Zones", "QSBS", "Tax Benefits"], "file_path": "comprehensive-opportunity-summary.md", "category": "general"}, {"title": "NYC Private Equity & Banking Opportunity Playbook - OBBB", "opportunity_id": "RES-GEN-56", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*This playbook leverages NYC's financial expertise to capitalize on OBBB opportunities while avoiding direct involvement in controversial sectors.*...", "tags": ["AI", "Defense", "QSBS", "Tax Benefits"], "file_path": "nyc-pe-banking-playbook.md", "category": "general"}, {"title": "NYC Private Equity & Banking Opportunity Playbook v2.0 - OBBB", "opportunity_id": "RES-GEN-61", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*This playbook leverages NYC's unique position to capitalize on the less obvious but equally lucrative opportunities in OBBB.*...", "tags": ["Agriculture", "Defense", "Funding", "Opportunity Zones", "QSBS", "Tax Benefits"], "file_path": "nyc-pe-banking-playbook-v2.md", "category": "general"}, {"title": "OBBB Cross-Checked Profit Opportunities Report", "opportunity_id": "RES-GEN-46", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*All line numbers and dollar amounts cross-checked against source document BILLS-119hr1eas.html*...", "tags": ["AI", "Defense", "Funding", "Tax Benefits"], "file_path": "cross-checked-opportunities.md", "category": "general"}, {"title": "OBBB Opportunity Stack Ranking - Investment Thesis Priority", "opportunity_id": "RES-GEN-59", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Stack ranking based on comprehensive analysis of HR119 (BILLS-119hr1eas) with line-by-line review of all provisions.*...", "tags": ["Agriculture", "Defense", "Opportunity Zones", "QSBS", "Tax Benefits"], "file_path": "opportunity-stack-ranking.md", "category": "general"}, {"title": "One Big Beautiful Bill (HR119) - Profit Opportunities Database", "opportunity_id": "RES-GEN-62", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Last Updated: 2025-07-06*...", "tags": ["Agriculture", "Defense", "Tax Benefits"], "file_path": "index.md", "category": "general"}, {"title": "Research Methodology & Soundness Assessment", "opportunity_id": "RES-GEN-43", "sector": "General", "role": "General", "capital_level": "Variable", "region": "National", "summary": "The findings are directionally correct and valuable for identifying opportunities, but specific investments should undergo additional due diligence....", "tags": ["Defense", "Tax Benefits"], "file_path": "research-methodology-assessment.md", "category": "general"}, {"title": "Agriculture Opportunities in BILLS-119hr1eas", "opportunity_id": "RES-AGR-44", "sector": "Agriculture", "role": "General", "capital_level": "Variable", "region": "National", "summary": "**Business Opportunity**: Commodity production and trading based on updated reference prices\n**Annual Adjustment**: Starting 2031, prices increase by 0.5% annually (capped at 113% of 2025 prices)...", "tags": ["Agriculture", "Funding", "Opportunity Zones", "Tax Benefits"], "file_path": "sectors/agriculture/agriculture-opportunities.md", "category": "sector-analysis"}, {"title": "Border Security and Immigration Funding Analysis - OBBB Bill", "opportunity_id": "RES-IMM-60", "sector": "Immigration", "role": "General", "capital_level": "Variable", "region": "National", "summary": "This comprehensive funding package represents one of the largest border security investments in U.S. history, with significant opportunities for private contractors, technology companies, and state/lo...", "tags": ["AI", "Defense", "Funding"], "file_path": "sectors/immigration/border-security-funding.md", "category": "sector-analysis"}, {"title": "Education and Technology Opportunities in HR 1 (BILLS-119hr1eas)", "opportunity_id": "RES-EDU-64", "sector": "Education Tech", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Note: This document summarizes key provisions from HR 1 (BILLS-119hr1eas.html). Consult the full legislation and relevant federal agencies for complete details and implementation guidance.*...", "tags": ["AI", "Funding", "Tax Benefits"], "file_path": "sectors/education-tech/education-tech-opportunities.md", "category": "sector-analysis"}, {"title": "Energy Opportunities in the OBBB Bill (HR 1)", "opportunity_id": "RES-ENE-44", "sector": "Energy", "role": "General", "capital_level": "Variable", "region": "National", "summary": "**Key Changes:**\n- **Repeals Inflation Reduction Act provisions** (Line 3128-3131)\n  - Removes higher onshore oil and gas royalty rates from IRA\n  - Reverses noncompetitive leasing restrictions\n  \n- *...", "tags": ["AI", "Funding"], "file_path": "sectors/energy/energy-opportunities.md", "category": "sector-analysis"}, {"title": "Healthcare, Medical, and Health-Related Provisions in BILLS-119hr1eas.html", "opportunity_id": "RES-HEA-74", "sector": "Healthcare", "role": "General", "capital_level": "Variable", "region": "National", "summary": "**Section 71101 - Moratorium on Medicare Savings Programs Rule** (Lines 9817-9834)\n- **What it does**: Places a moratorium on implementation of CMS rule relating to Medicare Savings Programs eligibili...", "tags": ["AI", "Defense", "Tax Benefits"], "file_path": "sectors/healthcare/healthcare-opportunities.md", "category": "sector-analysis"}, {"title": "Hidden Opportunities in HR 1 (119th Congress)", "opportunity_id": "RES-HID-45", "sector": "Hidden", "role": "General", "capital_level": "Variable", "region": "National", "summary": "*Note: This document is based on HR 1 as engrossed in the House. Final provisions may change as the bill moves through the legislative process. Consult with legal and tax advisors for specific guidanc...", "tags": ["Agriculture", "Defense", "Funding", "Opportunity Zones", "Tax Benefits"], "file_path": "sectors/hidden/hidden-opportunities.md", "category": "sector-analysis"}, {"title": "Infrastructure Opportunities in HR 1 (2025)", "opportunity_id": "RES-INF-43", "sector": "Infrastructure", "role": "General", "capital_level": "Variable", "region": "National", "summary": "**Section 70422 - Low-Income Housing Tax Credit Enhancement**\n- **Lines**: 7422\n- **Type**: Affordable housing\n- **Details**: Permanent enhancement of low-income housing tax credit\n- **Geographic Focu...", "tags": ["Defense", "Funding", "Opportunity Zones", "Tax Benefits"], "file_path": "sectors/infrastructure/infrastructure-opportunities.md", "category": "sector-analysis"}, {"title": "OBBB Bill - Finance Sector Provisions Research", "opportunity_id": "RES-FIN-46", "sector": "Finance", "role": "General", "capital_level": "Variable", "region": "National", "summary": "The absence of carried interest reform, despite frequent political discussion, represents a significant win for the private equity industry. Similarly, the lack of new banking regulations maintains th...", "tags": ["Agriculture", "Defense", "Funding", "QSBS", "Tax Benefits"], "file_path": "sectors/finance/banking-pe-qsbs.md", "category": "sector-analysis"}, {"title": "Tax Benefits for Households Earning $250K-$400K in OBBB Bill (Title VII - Finance)", "opportunity_id": "RES-FIN-82", "sector": "Finance", "role": "General", "capital_level": "Variable", "region": "National", "summary": "- **January 1, 2025:** Most provisions take effect...", "tags": ["Tax Benefits"], "file_path": "sectors/finance/tax-benefits-250k-400k.md", "category": "sector-analysis"}];
+    
+    function renderOpportunities(filtered) {
+        const results = document.getElementById('results');
+        results.innerHTML = '';
+        
+        filtered.forEach(opp => {
+            const card = document.createElement('div');
+            card.className = 'opportunity-card';
+            card.innerHTML = `
+                <h3><a href="${opp.file_path.replace('.md', '.html')}">${opp.title}</a></h3>
+                <p>${opp.summary || 'No summary available'}</p>
+                <div>
+                    <strong>Sector:</strong> ${opp.sector} | 
+                    <strong>Category:</strong> ${opp.category}
+                    ${opp.tags ? ' | <strong>Tags:</strong> ' + opp.tags.map(t => `<span class="tag">${t}</span>`).join('') : ''}
+                </div>
+            `;
+            results.appendChild(card);
+        });
+        
+        if (filtered.length === 0) {
+            results.innerHTML = '<p>No opportunities match your search.</p>';
+        }
+    }
+    
+    function filterOpportunities() {
+        const searchTerm = document.getElementById('search').value.toLowerCase();
+        const selectedTags = Array.from(document.querySelectorAll('.tag-filter:checked')).map(cb => cb.value);
+        
+        const filtered = opportunities.filter(opp => {
+            const matchesSearch = !searchTerm || 
+                opp.title.toLowerCase().includes(searchTerm) ||
+                (opp.summary && opp.summary.toLowerCase().includes(searchTerm)) ||
+                opp.sector.toLowerCase().includes(searchTerm);
+            
+            const matchesTags = selectedTags.length === 0 || 
+                selectedTags.some(tag => opp.tags && opp.tags.includes(tag));
+            
+            return matchesSearch && matchesTags;
+        });
+        
+        renderOpportunities(filtered);
+    }
+    
+    document.getElementById('search').addEventListener('input', filterOpportunities);
+    document.querySelectorAll('.tag-filter').forEach(cb => {
+        cb.addEventListener('change', filterOpportunities);
+    });
+    
+    // Initial render
+    renderOpportunities(opportunities);
+    </script>
+    
+    </div>
+    <script>
+        // Add copy button to code blocks
+        document.querySelectorAll('pre').forEach(pre => {
+            const button = document.createElement('button');
+            button.textContent = 'Copy';
+            button.style.position = 'absolute';
+            button.style.right = '10px';
+            button.style.top = '10px';
+            button.style.fontSize = '12px';
+            button.onclick = () => {
+                navigator.clipboard.writeText(pre.textContent);
+                button.textContent = 'Copied!';
+                setTimeout(() => button.textContent = 'Copy', 2000);
+            };
+            pre.style.position = 'relative';
+            pre.appendChild(button);
+        });
+    </script>
+</body>
+</html>

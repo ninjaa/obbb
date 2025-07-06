@@ -1,0 +1,68 @@
+[
+  {
+    "id": "stack_oz_ag",
+    "query": "What opportunities can I stack with Opportunity Zones in rural agricultural areas?",
+    "expected_entities": [
+      "OPPORTUNITY_ZONES",
+      "AGRICULTURAL_SUBSIDIES",
+      "RURAL_AREAS"
+    ],
+    "expected_relations": [
+      "STACKS_WITH",
+      "LOCATED_IN"
+    ]
+  },
+  {
+    "id": "nyc_investor_300k",
+    "query": "What are the best opportunities for a NYC investor with $300K to invest?",
+    "expected_entities": [
+      "NYC",
+      "CAPITAL_300K",
+      "INVESTMENT_OPPORTUNITY"
+    ],
+    "expected_relations": [
+      "REQUIRES",
+      "QUALIFIES_FOR"
+    ]
+  },
+  {
+    "id": "defense_minerals",
+    "query": "How can I profit from critical minerals funding through defense contracts?",
+    "expected_entities": [
+      "CRITICAL_MINERALS",
+      "DOD",
+      "DEFENSE_CONTRACTS"
+    ],
+    "expected_relations": [
+      "PROVIDES",
+      "ADMINISTERED_BY"
+    ]
+  },
+  {
+    "id": "qsbs_structure",
+    "query": "How do I structure investments to maximize the $75M QSBS exemption?",
+    "expected_entities": [
+      "QSBS",
+      "TAX_EXEMPTION",
+      "INVESTMENT_STRUCTURE"
+    ],
+    "expected_relations": [
+      "QUALIFIES_FOR",
+      "REQUIRES"
+    ]
+  },
+  {
+    "id": "border_state_stack",
+    "query": "What funding opportunities stack together in border states?",
+    "expected_entities": [
+      "BORDER_SECURITY",
+      "BORDER_STATES",
+      "FUNDING"
+    ],
+    "expected_relations": [
+      "STACKS_WITH",
+      "LOCATED_IN",
+      "COMBINES_WITH"
+    ]
+  }
+]
