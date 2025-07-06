@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /deep-index.html
+Disallow: /site/
+Crawl-delay: 10
